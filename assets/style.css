@@ -1,0 +1,19 @@
+/* MyGlowPulse — static legal/support pages (GitHub Pages, SKI-130). */
+:root { --brand: #7B5CFA; --text: #1F1B2E; --muted: #75708A; --bg: #FFFFFF; --soft: #F1EDFA; --warn: #FEF3E0; --warn-text: #8A5A00; }
+@media (prefers-color-scheme: dark) {
+  :root { --text: #EDEAF5; --muted: #A9A3BF; --bg: #16131F; --soft: #221D30; --warn: #3A2E14; --warn-text: #F5C26B; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 28px; line-height: 1.25; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 36px 0 8px; }
+h3 { font-size: 16px; margin: 20px 0 4px; }
+a { color: var(--brand); }
+.meta { color: var(--muted); font-size: 14px; }
+.lang { float: right; font-size: 14px; }
+.draft { background: var(--warn); color: var(--warn-text); border-radius: 12px; padding: 12px 16px; margin: 16px 0 24px; font-size: 14px; }
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; vertical-align: top; padding: 8px; border-bottom: 1px solid var(--soft); }
+th { background: var(--soft); }

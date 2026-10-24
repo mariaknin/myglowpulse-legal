@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — MyGlowPulse</title>
+  <link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<main>
+  <a class="lang" href="../" hreflang="fr">Français</a>
+  <h1>Privacy Policy</h1>
+  <p class="meta">MyGlowPulse app (iOS and Android) · Last updated: October 17, 2026</p>
+
+  <!-- DRAFT: to be validated legally by Marie before the App Store submission (SKI-130). -->
+  <div class="draft"><strong>Draft</strong> — this text still has to be legally reviewed before final publication. The French version prevails.</div>
+
+  <p>MyGlowPulse is a skincare routine tracking app. Every day you take a selfie (the "Pulse"); an image analysis service computes five skin criteria from the photo, and the app helps you follow how they evolve along with your routine. This policy explains what data we collect, why, where it is processed, how long we keep it and how you can delete it.</p>
+
+  <h2>1. Data controller and contact</h2>
+  <p>The data controller is Marie Aknin, publisher of MyGlowPulse. For any question or to exercise your rights: <a href="mailto:marie.aknin@gmail.com">marie.aknin@gmail.com</a>.</p>
+
+  <h2>2. Data we collect and why</h2>
+  <div class="table-wrap">
+  <table>
+    <tr><th>Data</th><th>Why</th><th>Legal basis</th></tr>
+    <tr><td>Email address, password (hashed, handled by our authentication provider)</td><td>Create your account, log you back in, restore your data on another phone</td><td>Performance of the contract</td></tr>
+    <tr><td>First name, last name, phone number</td><td>Personalize the app, contact you about your account</td><td>Performance of the contract</td></tr>
+    <tr><td>Skin type, phototype, birth year, skin family</td><td>Tailor recommendations, compute your skin age</td><td>Performance of the contract</td></tr>
+    <tr><td><strong>Photos of your face</strong> (Pulse selfies)</td><td>Compute your 5 skin criteria, show your photo history and — in aggregate — improve the reliability of the analysis</td><td><strong>Explicit consent</strong> (given before your first Pulse, can be withdrawn at any time)</td></tr>
+    <tr><td>Skin scores (redness, spots, pores, texture, glow), estimated skin age, estimated phototype, daily feeling</td><td>Show your progress over time</td><td>Explicit consent / performance of the contract</td></tr>
+    <tr><td>Your routine products, the routine you check off each day, badges and streak</td><td>Track your routine and adherence, unlock badges</td><td>Performance of the contract</td></tr>
+    <tr><td>Push notification token (Expo), reminder preferences</td><td>Send you the reminders you turned on</td><td>Consent (notification permission)</td></tr>
+    <tr><td>Reminder events (reminder scheduled / shown / opened, with timestamps)</td><td>Measure whether reminders are useful and improve them. They contain no photo and no free text</td><td>Legitimate interest</td></tr>
+    <tr><td>Crash and diagnostic data (Sentry): device type, app version, error trace</td><td>Detect and fix bugs</td><td>Legitimate interest</td></tr>
+  </table>
+  </div>
+  <p>We do not sell your data, we do not use it for targeted advertising and we do not track you across apps.</p>
+
+  <h2>3. Where your data is processed (processors)</h2>
+  <ul>
+    <li><strong>Supabase</strong> — database, authentication and photo storage. Hosting region: <em>[to be confirmed in the Supabase dashboard]</em>.</li>
+    <li><strong>Modal</strong> (United States) — hosts our image analysis service. Your photo is sent to it during the Pulse to compute the scores; it is not kept there after the analysis.</li>
+    <li><strong>Anthropic</strong> and <strong>OpenRouter</strong> (United States) — artificial intelligence providers used, through our own intermediary server, for some text features (for example understanding the description of your routine). They only receive what the feature strictly needs, never your email or phone number.</li>
+    <li><strong>Sentry</strong> — crash reports.</li>
+    <li><strong>Expo</strong> (United States) — push notification delivery.</li>
+  </ul>
+  <p>When data is transferred outside the European Union, these transfers are covered by the European Commission's Standard Contractual Clauses or an equivalent mechanism offered by the provider.</p>
+
+  <h2>4. Your consent for photos and AI</h2>
+  <p>Before your first Pulse, the app explicitly asks your permission to send your selfie to our analysis service and to use third-party AI services. Until you agree, no photo leaves your phone. You can withdraw this consent at any time by writing to us or by deleting your account.</p>
+
+  <h2>5. Retention</h2>
+  <ul>
+    <li>Account data, photos, scores, routine, badges and reminder events: for as long as your account exists. They are deleted when you delete your account.</li>
+    <li>Photo sent to the analysis service (Modal): only for the duration of the analysis.</li>
+    <li>Notification token: deleted when you log out or delete your account.</li>
+    <li>Crash reports (Sentry): per Sentry's retention period (90 days at most).</li>
+  </ul>
+
+  <h2>6. Deleting your data</h2>
+  <p>You can delete your account and all associated data (profile, photos, scores, routine) directly in the app: <strong>Account</strong> tab → <strong>Delete my account</strong>. You can also write to us at <a href="mailto:marie.aknin@gmail.com">marie.aknin@gmail.com</a>.</p>
+
+  <h2>7. Your rights</h2>
+  <p>Under the GDPR you have the right to access, rectify, erase, restrict, object to and port your data, and to withdraw your consent at any time. To exercise them, write to us. You can also lodge a complaint with the French data protection authority, the CNIL (<a href="https://www.cnil.fr">www.cnil.fr</a>), or your local authority.</p>
+
+  <h2>8. Minors</h2>
+  <p>If you are under 15, you need the agreement of a person with parental authority to use MyGlowPulse.</p>
+
+  <h2>9. Security</h2>
+  <p>Exchanges with our servers are encrypted (HTTPS). Access to your data is restricted to your account by database-level security rules, and your photos are stored in a private space, only reachable through temporary links.</p>
+
+  <h2>10. Changes</h2>
+  <p>We may update this policy. If there is a significant change, we will let you know in the app.</p>
+</main>
+</body>
+</html>

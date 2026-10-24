@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Politique de confidentialité — MyGlowPulse</title>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<main>
+  <a class="lang" href="en/" hreflang="en">English</a>
+  <h1>Politique de confidentialité</h1>
+  <p class="meta">Application MyGlowPulse (iOS et Android) · Dernière mise à jour : 17 octobre 2026</p>
+
+  <!-- DRAFT: to be validated legally by Marie before the App Store submission (SKI-130). -->
+  <div class="draft"><strong>Brouillon</strong> — ce texte doit encore être validé juridiquement avant publication définitive.</div>
+
+  <p>MyGlowPulse est une application de suivi de routine de soin de la peau. Chaque jour, tu prends un selfie (le « Pulse ») ; un service d'analyse d'image calcule cinq critères de peau à partir de la photo, et l'application t'aide à suivre leur évolution et ta routine. Cette politique explique quelles données nous collectons, pourquoi, où elles sont traitées, combien de temps nous les gardons et comment tu peux les supprimer.</p>
+
+  <h2>1. Responsable du traitement et contact</h2>
+  <p>Le responsable du traitement est Marie Aknin, éditrice de MyGlowPulse. Pour toute question ou pour exercer tes droits : <a href="mailto:marie.aknin@gmail.com">marie.aknin@gmail.com</a>.</p>
+
+  <h2>2. Données collectées et finalités</h2>
+  <div class="table-wrap">
+  <table>
+    <tr><th>Donnée</th><th>Pourquoi</th><th>Base légale</th></tr>
+    <tr><td>Adresse e-mail, mot de passe (chiffré, géré par notre fournisseur d'authentification)</td><td>Créer ton compte, te reconnecter, retrouver tes données sur un autre téléphone</td><td>Exécution du contrat</td></tr>
+    <tr><td>Prénom, nom, numéro de téléphone</td><td>Personnaliser l'application, te recontacter à propos de ton compte</td><td>Exécution du contrat</td></tr>
+    <tr><td>Type de peau, phototype, année de naissance, famille de peau</td><td>Adapter les recommandations, calculer l'âge de ta peau</td><td>Exécution du contrat</td></tr>
+    <tr><td><strong>Photos de ton visage</strong> (selfies du Pulse)</td><td>Calculer tes 5 critères de peau, afficher ton historique photo, et — de façon agrégée — améliorer la fiabilité de l'analyse</td><td><strong>Consentement explicite</strong> (donné avant ton premier Pulse, retirable à tout moment)</td></tr>
+    <tr><td>Scores de peau (rougeurs, taches, pores, texture, éclat), âge de peau estimé, phototype estimé, ressenti du jour</td><td>Te montrer ta progression dans le temps</td><td>Consentement explicite / exécution du contrat</td></tr>
+    <tr><td>Produits de ta routine, routine cochée chaque jour, badges et série (streak)</td><td>Suivre ta routine et ton adhérence, débloquer des badges</td><td>Exécution du contrat</td></tr>
+    <tr><td>Jeton de notification push (Expo), préférences de rappels</td><td>T'envoyer les rappels que tu as activés</td><td>Consentement (autorisation des notifications)</td></tr>
+    <tr><td>Événements de rappels (rappel programmé / affiché / ouvert, avec horodatage)</td><td>Mesurer si les rappels sont utiles et les améliorer. Ne contiennent ni photo ni texte libre</td><td>Intérêt légitime</td></tr>
+    <tr><td>Données de plantage et de diagnostic (Sentry) : type d'appareil, version de l'app, trace de l'erreur</td><td>Détecter et corriger les bugs</td><td>Intérêt légitime</td></tr>
+  </table>
+  </div>
+  <p>Nous ne vendons pas tes données, nous ne les utilisons pas pour de la publicité ciblée et nous ne faisons pas de suivi publicitaire entre applications (« tracking »).</p>
+
+  <h2>3. Où tes données sont traitées (sous-traitants)</h2>
+  <ul>
+    <li><strong>Supabase</strong> — base de données, authentification et stockage des photos. Région d'hébergement : <em>[à confirmer dans le tableau de bord Supabase]</em>.</li>
+    <li><strong>Modal</strong> (États-Unis) — héberge notre service d'analyse d'image. Ta photo lui est envoyée au moment du Pulse pour calculer les scores ; elle n'y est pas conservée après l'analyse.</li>
+    <li><strong>Anthropic</strong> et <strong>OpenRouter</strong> (États-Unis) — fournisseurs d'intelligence artificielle utilisés, via notre propre serveur intermédiaire, pour certaines fonctions textuelles (par exemple comprendre la description de ta routine). Ils ne reçoivent que le strict nécessaire à la fonction, jamais ton e-mail ni ton téléphone.</li>
+    <li><strong>Sentry</strong> — rapports de plantage.</li>
+    <li><strong>Expo</strong> (États-Unis) — acheminement des notifications push.</li>
+  </ul>
+  <p>Lorsque des données sont transférées hors de l'Union européenne, ces transferts sont encadrés par les clauses contractuelles types de la Commission européenne ou un mécanisme équivalent proposé par le prestataire.</p>
+
+  <h2>4. Ton consentement pour les photos et l'IA</h2>
+  <p>Avant ton premier Pulse, l'application te demande explicitement l'autorisation d'envoyer ton selfie à notre service d'analyse et d'utiliser des services d'IA tiers. Tant que tu n'as pas accepté, aucune photo ne quitte ton téléphone. Tu peux retirer ce consentement à tout moment en nous écrivant ou en supprimant ton compte.</p>
+
+  <h2>5. Durée de conservation</h2>
+  <ul>
+    <li>Données de compte, photos, scores, routine, badges et événements de rappels : tant que ton compte existe. Elles sont supprimées lorsque tu supprimes ton compte.</li>
+    <li>Photo envoyée au service d'analyse (Modal) : le temps de l'analyse uniquement.</li>
+    <li>Jeton de notification : supprimé à la déconnexion ou à la suppression du compte.</li>
+    <li>Rapports de plantage (Sentry) : selon la durée de conservation de Sentry (90 jours maximum).</li>
+  </ul>
+
+  <h2>6. Supprimer tes données</h2>
+  <p>Tu peux supprimer ton compte et toutes les données associées (profil, photos, scores, routine) directement dans l'application : onglet <strong>Compte</strong> → <strong>Supprimer mon compte</strong>. Tu peux aussi nous écrire à <a href="mailto:marie.aknin@gmail.com">marie.aknin@gmail.com</a>.</p>
+
+  <h2>7. Tes droits</h2>
+  <p>Conformément au RGPD, tu disposes d'un droit d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité de tes données, ainsi que du droit de retirer ton consentement à tout moment. Pour les exercer, écris-nous. Tu peux aussi introduire une réclamation auprès de la CNIL (<a href="https://www.cnil.fr">www.cnil.fr</a>).</p>
+
+  <h2>8. Mineurs</h2>
+  <p>Si tu as moins de 15 ans, l'accord d'un titulaire de l'autorité parentale est nécessaire pour utiliser MyGlowPulse.</p>
+
+  <h2>9. Sécurité</h2>
+  <p>Les échanges avec nos serveurs sont chiffrés (HTTPS). L'accès à tes données est restreint à ton compte par des règles de sécurité au niveau de la base de données, et tes photos sont stockées dans un espace privé, accessible uniquement via des liens temporaires.</p>
+
+  <h2>10. Modifications</h2>
+  <p>Nous pouvons mettre à jour cette politique. En cas de changement important, nous te préviendrons dans l'application.</p>
+</main>
+</body>
+</html>
