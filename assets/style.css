@@ -12,7 +12,6 @@ h3 { font-size: 16px; margin: 20px 0 4px; }
 a { color: var(--brand); }
 .meta { color: var(--muted); font-size: 14px; }
 .lang { float: right; font-size: 14px; }
-.draft { background: var(--warn); color: var(--warn-text); border-radius: 12px; padding: 12px 16px; margin: 16px 0 24px; font-size: 14px; }
 .table-wrap { overflow-x: auto; }
 table { border-collapse: collapse; width: 100%; font-size: 14px; }
 th, td { text-align: left; vertical-align: top; padding: 8px; border-bottom: 1px solid var(--soft); }
